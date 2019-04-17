@@ -1,0 +1,24 @@
+{
+  "name": "DipsyPatel",
+  "version": "1.0.0",
+  "description": "Dipsy patel's portfolio\r Welcome to my portfolio. Have a look around\r [GitHub](http://www.github.com)\r ## specialties \r - Java Scripts\r - NodeJS\r -HTML",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dipsy416/savvy-coders-portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dipsy416/savvy-coders-portfolio/issues"
+  },
+  "homepage": "https://github.com/dipsy416/savvy-coders-portfolio#readme",
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "parcel-bundler": "^1.12.3"
+  }
+}
