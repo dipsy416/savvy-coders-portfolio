@@ -1,16 +1,24 @@
 <style>
-
-nav {background-color:powderblue;
+.container {
+  margin: 0 auto;
+  max-width: 960;
+  width: 80vw;
+}
+h1 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+nav {
+  background-color: red;
    font-family: Impact;
    font-size: 24px;
 }
 
-header {font-family:Helvetica;
-       height: 200px;
+header {
+  background-color: blue;
+  font-family:Helvetica;
+  font-size: 24px;
+       height: 300px;
        text-align: center;
-}
-
-p {text-align: left; width: 550px;
 }
 
 footer {background-color:royalblue;
@@ -65,7 +73,7 @@ border: solid 3px rosybrown;
 margin: auto; max-width: 960px; width: 80vw;
 }
 
-/*Form* /
+
 
 span + input {
    margin-left: 15px;
@@ -81,31 +89,26 @@ textarea {
 }
 
 input {
-   margin-left: 5px;
+   margin-left: 15px;
 }
 
 .flex {
    display: flex;
    flex-direction: column;
 }
-
 .flex--column {
    flex-direction: column;
 }
-
 form p {
    margin-bottom: 5px;
 }
-
-form > div + div {
+form div + div {
    margin-top: 10px;
 }
-
 /*Dropdown*/
-
 /* Dropdown Button */
-.dropbtn {
-   background-color: #4CAF50;
+.dropdown {
+   background-color: rgb(76, 116, 175);
    color: white;
    padding: 16px;
    font-size: 16px;

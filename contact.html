@@ -2,14 +2,14 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
     <link rel="stylesheet" href="style.css"/>
     <title>Contact Form</title>
 </head>
 <body>
-
-    <form action="https://formspree.io/dipsy416@gmail.com" method="POST" >
+    <h1>Contact Me</h1>
+    <form action="#" class="container">
         <span>
           <label for="name">Your Name</label>
           <input type="text" id="name" name="userName" />
@@ -29,12 +29,12 @@
           <input type="tel" name="userFone" id="fone" />
         </span>
 
-        <div class="flex">
+        <div class="flex flex--column">
           <label for="msg">Your Message</label>
           <textarea name="msg" id="msg" cols="30" rows="10"></textarea>
         </div>
 
-        <div>
+        <span>
           <p>What's this message about?</p>
 
           <span>
@@ -56,7 +56,7 @@
             <input type="radio" name="subject" value="other" />
             <label>Don't know/something else</label>
           </span>
-        </div>
+        </span>
         <div>
           <input type="checkbox" name="optin" value="trusting" checked />Subscribe
           me to your newsletter!
