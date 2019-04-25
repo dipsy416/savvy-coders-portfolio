@@ -30,7 +30,9 @@ li {
 
 .fancybig {font-family: helvetica ; font-size:32px;
 }
-
+figure {
+  float: right;
+}
 #test {
    height: 20vh;
    width: 80vw;
