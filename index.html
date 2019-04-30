@@ -5,13 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Dipsy's Portfolio</title>
-    <link rel="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css"
+    <link rel="stylesheet"
+     href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
-     <nav class="container">
+     <nav>
+     <!-- <nav class="container"> -->
        <ul class="flex">
          <li><a href="about.html">About Me</a></li>
          <li><a href="contact.html">Contact</a></li>
@@ -25,23 +27,24 @@
         </li>
       </ul>
     </nav>
-                <header class="container">
-                  <figure>
-                    <img src="https://d27k8xmh3cuzik.cloudfront.net/wp-content/uploads/2019/01/Daintree-National-Park-Explore-the-rainforests.jpg" alt="Some sample image" width="200">
-                    <figcaption>This is a catipn</figcaption>
-                  </figure>
+        <div id ="bg-container">
+        <header class="align-items-top container flex">
+                <!--<header class="container"> -->
+                    <img src="https://d27k8xmh3cuzik.cloudfront.net/wp-content/uploads/2019/01/Daintree-National-Park-Explore-the-rainforests.jpg" alt="Some sample image" width="400">
+                <div class="flex flex-column">
                   <h1>
                     Dipsy Patel's Portfolio
                   </h1>
-                  <h2>A Web Developer</h2>
-                </header>
-
-                <main class="container">
-                  <span>hello</span>
+                  <h4>A Web Developer</h4>
+                </div>
+        </div>
+        </header>
+                  <main class="container">
+                  <span>Hello</span>
                   <span class="test1">world</span>
 
-                  <div class="test1 test2">goodbye</div>
-                  <div>galaxy</div>
+                  <div class="test1 test2">Goodbye</div>
+                  <div>Galaxy</div>
 
                   <p id="important" class="test2" style="background: brown;">
                     THIS IMPORTANT Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam officiis
@@ -124,15 +127,39 @@
                   </section>
                 </main>
 
-                <footer class="container">
+                <footer class="container flex">
                   &copy; 2019 Dipsy Patel
+                  <ul>
+                    <li>
                   <a href="https://github.com/dipsy416" target="blank">
                       <span class="fab fa-github"></span>"
                     </a>
+                  </li>
+                  <li>
                     <a href="https://linkedin.com/dipsy416" target="blank">
                         <span class="fab fa-linkedin"></span>"
                       </a>
-
+                    </li>
+                  </ul>
                 </footer>
+                <script>
+                  // create `prompt` to ask for name
+                let name=prompt("what is your name?");
+                // check if name is a 'blank string
+                // REFactor the error check into a function
+                function checkName(){
+                  if(name === ""){
+                    name = prompt("really, whar is your name?");
+                  }
+
+                }
+                checkName();
+                  if(name === ""){
+                    name = prompt("really, whar is your name?");
+                  }
+
+                alert(`hello ${name}`);
+                </script>
+
               </body>
 </html>
