@@ -151,8 +151,12 @@
                 //`name` is here as a GOLBLE veriable that `anyone` in the <script> can ferrly access and modify.
                 function checkName(name){
                   if(name === ""){
-                    name = prompt("really, whar is your name?");
+                  // if name is blank, ask again and be sure to capture/overwrite the value of name
+                  name = prompt("really, whar is your name?");
+                  // RECURSION - function calls itself again
+                  name = checkName(name);
                   }
+
                   return name;
                 }
                 //Function expression
