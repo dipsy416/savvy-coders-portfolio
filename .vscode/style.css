@@ -1,0 +1,36 @@
+.container{
+    margin: 0 auto;
+    max-width: 960;
+    width: 80vw;
+}
+
+h1 {
+    font-family: "gill Sans", "gill Sans MT", "Calib"
+}
+
+nav {
+    background-color: red;
+}
+header{
+    font-size: 24px;
+    height: 300px;
+}
+.flex {
+    disply: flex;
+}
+.flex {
+flex-direction: column;
+}
+.justify-space-between {
+    justify-content: space-between;
+}
+/*.From*/
+input {
+    margin-left: 5px;
+}
+span + span {
+    margin-left: 15px;
+}
+form > div + div{
+    margin-top: 10px;
+}
